@@ -1,0 +1,3 @@
+queues:
+  build:
+    script: ./build.sh
