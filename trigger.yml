@@ -1,3 +1,4 @@
 queues:
   build:
     script: ./build.sh
+    env: xxx=y
