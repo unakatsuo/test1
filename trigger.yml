@@ -1,4 +1,4 @@
 queues:
   build:
-    script: echo "HOGE-----------!!!!!"
+    script: echo "HAGE-----------!!!!!"
     env: xxx=y1
