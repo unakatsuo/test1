@@ -3,5 +3,6 @@ queues:
     script:
       - echo "HAGE-----------!!!!!"
       - ip route
+      - cat /etc/hosts
       - curl -XPOST http://dockerhost:9090/job
     env: xxx=y1
