@@ -1,6 +1,7 @@
 queues:
   build:
     script:
+      - env
       - echo "HAGE-----------!!!!!"
       - ip route
       - cat /etc/hosts
