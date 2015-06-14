@@ -1,4 +1,6 @@
 queues:
   build:
-    script: echo "HAGE-----------!!!!!"
+    script:
+      - echo "HAGE-----------!!!!!"
+      - curl -XPOST http://localhost:9090/job
     env: xxx=y1
