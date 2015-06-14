@@ -4,5 +4,5 @@ queues:
       - echo "HAGE-----------!!!!!"
       - ip route
       - cat /etc/hosts
-      - curl -XPOST http://dockerhost:9090/job
+      - curl -XPOST http://172.17.42.1:9090/job
     env: xxx=y1
