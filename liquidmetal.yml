@@ -2,5 +2,5 @@ queues:
   build:
     script:
       - echo "HAGE-----------!!!!!"
-      - curl -XPOST http://localhost:9090/job
+      - curl -XPOST http://dockerhost:9090/job
     env: xxx=y1
