@@ -5,7 +5,7 @@ queues:
       - echo "HAGE-----------!!!!!"
       - ip route
       - cat /etc/hosts
-      - curl -XPOST -f http://172.17.42.1:9090/job/deploy --data-urlencoded "env[DEST]=Tokyo"
+      - curl -XPOST -f http://172.17.42.1:9090/job/deploy --data-urlencode "env[DEST]=Tokyo"
     env: xxx=y1
   deploy:
     script:
