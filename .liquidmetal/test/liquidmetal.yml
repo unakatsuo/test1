@@ -1,1 +1,6 @@
 description: test 1
+
+operations:
+  build:
+    script:
+      - echo "Do build"
